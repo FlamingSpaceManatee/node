@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang='en-US'>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Node App</title>
+	</head>
+	<body onload="init();">
+		<script type="text/javascript" src="../socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="js/client.js"></script>
+		<div id='chatarea' class='chat'></div>
+		<div class='input'>
+			<input id="in"/>
+			<button type="button" onclick="send();">Send</button>
+		</div>
+	</body>
+</html>
