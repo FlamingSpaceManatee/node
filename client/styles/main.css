@@ -1,0 +1,79 @@
+html, body{
+
+	background-color: #111;
+	margin: 0;
+	padding: 0;
+
+}
+
+#game {
+
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+h1, h3 {
+	
+	color: #ff4136;
+	font-family: 'Julius Sans One', serif;
+	font-weight: normal;
+	margin: 10px;
+
+}
+
+h1 {
+
+	font-weight: normal;
+	font-size: 120px;
+	height: 125px;
+	margin-top: 0px;
+
+}
+
+h3 {
+
+	font-size: 36px;
+	font-family: 'Julius Sans One', serif;
+	font-weight: normal;
+
+}
+
+.name-input {
+
+	display: block;
+	position: relative;
+	color: #111;
+
+}
+
+input {
+
+	text-align: center;
+	font-size: 24px;
+	margin: 10px;
+	width: 300px;
+
+}
+
+button {
+
+	font-size: 20px;
+	width: 300px;
+	padding: 00px;
+	background-color: white
+
+}
+
+#centre-box {
+
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateY(-50%)
+		translateX(-50%);
+
+}
