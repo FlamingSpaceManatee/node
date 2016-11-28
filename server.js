@@ -64,7 +64,7 @@ io.on('connection', function(socket){
 
 http.listen(8080, function(){
 	
-	console.log('server on 8080');
+	console.log('server on 80');
 
 });
 
