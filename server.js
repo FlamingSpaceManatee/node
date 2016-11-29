@@ -2,6 +2,7 @@ var express = require('express');
 var app 	= express();
 var http 	= require('http').Server(app);
 var io 		= require('socket.io')(http);
+var port 	= process.env.PORT || 8080;
 
 var playerstates = [];
 
@@ -62,9 +63,9 @@ io.on('connection', function(socket){
 
 });
 
-http.listen(8080, function(){
+http.listen(port, function(){
 	
-	console.log('server on 80');
+	console.log('server on ' + port);
 
 });
 
